@@ -1,0 +1,267 @@
+{
+  "participantes": [
+    {
+      "id": 1,
+      "nome": "Adryana Ribeiro",
+      "foto": "img/participantes/adryana-ribeiro.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 2,
+      "nome": "Alfredo Amaral",
+      "foto": "img/participantes/alfredo-amaral.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 3,
+      "nome": "Ana Bruna Avila",
+      "foto": "img/participantes/ana-bruna-avila.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 4,
+      "nome": "Ariela Carasso",
+      "foto": "img/participantes/ariela-carasso.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 5,
+      "nome": "Catherine Bascoy",
+      "foto": "img/participantes/catherine-bascoy.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 6,
+      "nome": "Daniel Erthal",
+      "foto": "img/participantes/daniel-erthal.jpg",
+      "naRoca": true
+    },
+    {
+      "id": 7,
+      "nome": "Darlin Ferrattry",
+      "foto": "img/participantes/darlin-ferrattry.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 8,
+      "nome": "Eduarda Braum",
+      "foto": "img/participantes/eduarda-braum.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 9,
+      "nome": "Fran Almeida",
+      "foto": "img/participantes/fran-almeida.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 10,
+      "nome": "Gabriel Torres",
+      "foto": "img/participantes/gabriel-torres.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 11,
+      "nome": "Giovanna Gold",
+      "foto": "img/participantes/giovanna-gold.jpg",
+      "naRoca": true
+    },
+    {
+      "id": 12,
+      "nome": "Igor Monteiro",
+      "foto": "img/participantes/igor-monteiro.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 13,
+      "nome": "Jottapê",
+      "foto": "img/participantes/jottape.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 14,
+      "nome": "Jônatas Faro",
+      "foto": "img/participantes/jonatas-faro.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 15,
+      "nome": "Lucas Bissoli",
+      "foto": "img/participantes/lucas-bissoli.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 16,
+      "nome": "Maíra Charken",
+      "foto": "img/participantes/maira-charken.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 17,
+      "nome": "Mayk Leão",
+      "foto": "img/participantes/mayk-leao.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 18,
+      "nome": "Mônica Fonseca",
+      "foto": "img/participantes/monica-fonseca.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 19,
+      "nome": "Murilo Dias",
+      "foto": "img/participantes/murilo-dias.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 20,
+      "nome": "Renata del Bianco",
+      "foto": "img/participantes/renata-del-bianco.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 21,
+      "nome": "Renê Thristan",
+      "foto": "img/participantes/rene-thristan.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 22,
+      "nome": "Ricardo Negro",
+      "foto": "img/participantes/ricardo-negro.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 23,
+      "nome": "Sérgio Hondjakoff",
+      "foto": "img/participantes/sergio-hondjakoff.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 24,
+      "nome": "Stephanie Gomes",
+      "foto": "img/participantes/stephanie-gomes.jpg",
+      "naRoca": false
+    },
+    {
+      "id": 25,
+      "nome": "Thaíde",
+      "foto": "img/participantes/thaide.jpg",
+      "naRoca": true
+    },
+    {
+      "id": 26,
+      "nome": "Tina Calamba",
+      "foto": "img/participantes/tina-calamba.jpg",
+      "naRoca": false
+    }
+  ],
+  "votos": [
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:22.313Z",
+      "id": 1
+    },
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:23.063Z",
+      "id": 2
+    },
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:23.480Z",
+      "id": 3
+    },
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:23.647Z",
+      "id": 4
+    },
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:23.814Z",
+      "id": 5
+    },
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:25.546Z",
+      "id": 6
+    },
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:27.963Z",
+      "id": 7
+    },
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:28.163Z",
+      "id": 8
+    },
+    {
+      "participanteId": 6,
+      "data": "2026-11-10T12:29:28.346Z",
+      "id": 9
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:46.898Z",
+      "id": 10
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:49.364Z",
+      "id": 11
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:50.713Z",
+      "id": 12
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:51.148Z",
+      "id": 13
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:51.347Z",
+      "id": 14
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:51.513Z",
+      "id": 15
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:51.680Z",
+      "id": 16
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:51.830Z",
+      "id": 17
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:51.980Z",
+      "id": 18
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:29:53.362Z",
+      "id": 19
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:30:15.411Z",
+      "id": 20
+    },
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T12:30:36.047Z",
+      "id": 21
+    }
+  ]
+}

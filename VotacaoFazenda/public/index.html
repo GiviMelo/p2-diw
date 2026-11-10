@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Início</title>
+
+  <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark navbar-fazenda">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="img/logo-fazenda.jpg" alt="A Fazenda" height="48" class="rounded">
+        <span class="titulo-fazenda">Votação 2026</span>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+              aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="votacao.html">Votar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resultado.html">Resultado</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+
+    <div class="row align-items-center g-4">
+      <div class="col-md-5 text-center">
+        <img src="img/fazendeiro.jpg" alt="Fazendeiro João Paulo"
+             class="rounded-circle img-fluid foto-fazendeiro">
+        <p class="plaquinha mt-3">Fazendeiro João Paulo</p>
+      </div>
+
+      <div class="col-md-7 align-self-md-end">
+        <div class="card card-balao shadow">
+          <div class="card-body p-4 p-md-5">
+            <h1 class="card-title titulo-fazenda">Ô de casa! Aqui quem manda é o fazendeiro.</h1>
+            <p class="card-text fs-5">
+              Três peões foram parar na roça esta semana. Só um volta pra casa,
+              e quem decide é você. Pode votar quantas vezes quiser.
+            </p>
+            <a href="votacao.html" class="btn btn-danger btn-lg">Votar agora</a>
+            <a href="resultado.html" class="btn btn-dark btn-lg">Ver parcial</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="mt-5">
+      <h2 class="titulo-fazenda titulo-secao">Na roça desta semana</h2>
+      <div id="roca" class="d-flex flex-wrap gap-4 mt-3">
+        <div class="spinner-border text-warning" role="status">
+          <span class="visually-hidden">Carregando...</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center py-4 rodape-fazenda">
+    <small>Lucas Rodrigues Givisiez Melo © DIW 2026, PUC Minas</small>
+  </footer>
+
+  <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

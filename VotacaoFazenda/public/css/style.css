@@ -1,0 +1,262 @@
+@font-face {
+  font-family: "Rye";
+  src: url("../fonts/rye.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/nunito-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/nunito-700.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/nunito-800.woff2") format("woff2");
+  font-weight: 800;
+  font-display: swap;
+}
+
+:root {
+  --madeira-escura: #3b2314;
+  --madeira: #55341c;
+  --madeira-linha: #452a16;
+  --couro: #8a5a2b;
+  --creme: #f5e6c4;
+  --mostarda: #e9d09e;
+  --vermelho: #b3342b;
+  --texto: #2a1a0e;
+}
+
+body {
+  font-family: "Nunito", system-ui, sans-serif;
+  color: var(--creme);
+  background-color: var(--madeira);
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 118px,
+      var(--madeira-linha) 118px,
+      var(--madeira-linha) 122px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.05) 0,
+      rgba(0, 0, 0, 0.05) 2px,
+      transparent 2px,
+      transparent 9px
+    );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.titulo-fazenda {
+  font-family: "Rye", Georgia, serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.titulo-secao {
+  color: #ffd84d;
+  font-size: 1.6rem;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.navbar-fazenda {
+  background-color: var(--madeira-escura);
+}
+
+.navbar-fazenda .navbar-brand .titulo-fazenda {
+  color: var(--mostarda);
+  font-size: 1.25rem;
+}
+
+.navbar-fazenda .navbar-nav {
+  gap: 1rem;
+}
+
+.navbar-fazenda .nav-link {
+  color: #c9a981;
+  font-weight: 800;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.9rem;
+}
+
+.navbar-fazenda .nav-link:hover {
+  color: var(--creme);
+}
+
+.navbar-fazenda .nav-link.active {
+  background-color: #f0d070;
+  border-radius: 0.25rem;
+  color: var(--madeira-escura);
+}
+
+.foto-fazendeiro {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 8px solid var(--mostarda);
+}
+
+.plaquinha {
+  display: inline-block;
+  background-color: var(--mostarda);
+  color: var(--texto);
+  font-family: "Rye", Georgia, serif;
+  padding: 0.3rem 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-balao {
+  background-color: var(--creme);
+  color: var(--texto);
+  border: 3px solid var(--couro);
+  border-radius: 0.5rem;
+}
+
+.card-balao .card-title {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.15;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card-balao .btn {
+  --bs-btn-border-radius: 0.25rem;
+}
+
+.pilula-roca {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: var(--creme);
+  border: 2px solid var(--vermelho);
+  border-radius: 0.75rem;
+  padding: 0.25rem 1rem 0.25rem 0.25rem;
+}
+
+.pilula-roca img {
+  object-fit: cover;
+}
+
+.rodape-fazenda {
+  background-color: rgba(0, 0, 0, 0.35);
+  color: #c9a981;
+}
+
+.btn {
+  font-weight: 800;
+}
+
+.titulo-pagina {
+  color: #ffd84d;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.total-votos {
+  color: #ffd84d;
+  font-size: 2.2rem;
+}
+
+.texto-suave {
+  color: #c9a981;
+}
+
+.card-peao {
+  background-color: var(--creme);
+  color: var(--texto);
+  border: 3px solid var(--couro);
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.card-peao .card-img-top {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.card-peao .card-title {
+  font-size: 1.3rem;
+}
+
+.card-peao .btn,
+.card-peao .badge {
+  border-radius: 0.25rem;
+}
+
+.card-peao-pequeno {
+  border-width: 2px;
+}
+
+.card-peao-pequeno .card-img-top {
+  aspect-ratio: 4 / 3;
+}
+
+.card-lider {
+  border-color: var(--vermelho);
+}
+
+.foto-placar {
+  width: 100%;
+  max-width: 160px;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.card-peao .progress {
+  height: 1.25rem;
+  background-color: #d9c7a1;
+  border-radius: 0.25rem;
+}
+
+.card-peao .progress-bar {
+  border-radius: 0.25rem;
+}
+
+.barra-fazenda {
+  background-color: var(--couro);
+}
+
+.modal-fazenda {
+  background-color: var(--creme);
+  color: var(--texto);
+  border: 3px solid var(--couro);
+  border-radius: 0.05rem;
+}
+
+.modal-fazenda .btn {
+  --bs-btn-border-radius: 0.25rem;
+}
+
+.btn-danger {
+  --bs-btn-bg: #e8281e;
+  --bs-btn-border-color: #e8281e;
+  --bs-btn-hover-bg: #cf1f16;
+  --bs-btn-hover-border-color: #cf1f16;
+  --bs-btn-active-bg: #b81a12;
+  --bs-btn-active-border-color: #b81a12;
+  --bs-btn-disabled-bg: #e8281e;
+  --bs-btn-disabled-border-color: #e8281e;
+}
+
+.alert-voto {
+  --bs-alert-bg: #e3ecd3;
+  --bs-alert-color: #24331a;
+  --bs-alert-link-color: #24331a;
+  --bs-alert-border-color: #e3ecd3;
+  border-radius: 0.25rem;
+}
